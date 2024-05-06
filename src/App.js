@@ -14,8 +14,8 @@ const REDIRECT_URI =
 // const REDIRECT_URI = 'http://localhost:3000/account/login'
 
 const App = () => {
-  const [provider, setProvider] = useState('');
-  const [profile, setProfile] = useState();
+  const [provider, setProvider] = useState[null];
+  const [profile, setProfile] = useState[null];
 
   const onLoginStart = useCallback(() => {
     alert('login start');
