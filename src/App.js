@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import './app.css';
+import './App.css';
 import { User } from './User';
 import {
   LoginSocialTwitter,
@@ -30,7 +30,7 @@ const App = () => {
   const onLogout = useCallback(() => {}, []);
 
   return (
-    <>
+    <div>
       {provider && profile && (
         <User provider={provider} profile={profile} onLogout={onLogout} />
       )}
@@ -54,7 +54,7 @@ const App = () => {
           <TwitterLoginButton />
         </LoginSocialTwitter>
       </div>
-    </>
+    </div>
   );
 };
 
