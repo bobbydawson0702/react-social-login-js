@@ -10,7 +10,7 @@ import {
 } from 'react-social-login-buttons';
 
 const REDIRECT_URI =
-  'https://react-social-login-sigma.vercel.app';
+  'https://react-social-login-js.vercel.app';
 // const REDIRECT_URI = 'http://localhost:3000/account/login'
 
 const App = () => {
